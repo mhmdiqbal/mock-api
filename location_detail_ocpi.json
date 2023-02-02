@@ -1,0 +1,81 @@
+{
+  "id": "25c9bbf5-456e-43a9-9851-9902a13df8aa",
+  "name": "Reyza JomCharge",
+  "latitude": "-6.4856656",
+  "longitude": "107.4787319",
+  "address": "Bungursari, Purwakarta Regency, West Java, In",
+  "operator": "ChargEV",
+  "charge_stations": [
+    {
+      "id": "2c63fd1b-5598-4ef6-8ba4-2ca655f48f1e",
+      "serial_number": "JO*EV*0001",
+      "info": ["", "CHARGING_PROFILE_CAPABLE", "CREDIT_CARD_PAYABLE"],
+      "connectors_status": {
+        "available": 0,
+        "occupied": 0,
+        "unavailable": 2
+      },
+      "connectors": [
+        {
+          "id": "31238592-cb7e-460d-bfe0-7443cebf6200",
+          "status": "unavailable",
+          "ui_price": "RM 0.5/Min",
+          "format": "SOCKET",
+          "kilowatt": 150,
+          "uid": "1",
+          "name": "Type 1 - Yazaki",
+          "kind": "AC"
+        }
+      ]
+    },
+    {
+      "id": "0e05a740-6ee3-48fd-8337-ded1e794d5cc",
+      "serial_number": "JO*EV*0002",
+      "info": ["", "CHIP_CARD_SUPPORT"],
+      "connectors_status": {
+        "available": 0,
+        "occupied": 0,
+        "unavailable": 2
+      },
+      "connectors": [
+        {
+          "id": "49491244-8f81-4254-aa6f-5e302f44a789",
+          "status": "unavailable",
+          "ui_price": "RM 0.5/Min",
+          "format": "CABLE",
+          "kilowatt": 150,
+          "uid": "2",
+          "name": "Type 1 - Yazaki",
+          "kind": "AC"
+        }
+      ]
+    }
+  ],
+  "opening_times": {
+    "twentyfourseven": true,
+    "regular_hours": [
+      {
+        "weekday": 1,
+        "period_begin": "15:41",
+        "period_end": "15:41"
+      },
+      {
+        "weekday": 2,
+        "period_begin": "15:47",
+        "period_end": "15:47"
+      }
+    ],
+    "exceptional_openings": [
+      {
+        "period_begin": "2023-01-27T14:26:00.000+08:00",
+        "period_end": "2023-01-27T14:26:00.000+08:00"
+      }
+    ],
+    "exceptional_closings": [
+      {
+        "period_begin": "2023-01-27T14:26:00.000+08:00",
+        "period_end": "2023-01-28T14:26:00.000+08:00"
+      }
+    ]
+  }
+}
